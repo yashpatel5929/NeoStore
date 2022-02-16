@@ -7,9 +7,6 @@
     tools:context=".activities.AddressListScreen">
 
 
-
-
-
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/addToCartToolbar"
         android:layout_width="match_parent"

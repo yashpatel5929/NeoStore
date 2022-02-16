@@ -2,6 +2,7 @@ package com.example.neostore.api
 
 import com.example.neostore.models.*
 import retrofit2.Call
+import retrofit2.Response
 import retrofit2.http.*
 
 interface API {
@@ -22,7 +23,7 @@ interface API {
     fun loginUser(
         @Field("email") email: String,
         @Field("password") password:String
-    ):Call<DefaultResponse>
+    ):Response<DefaultResponse>
 
     @FormUrlEncoded
     @POST("users/forgot")

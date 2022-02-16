@@ -94,7 +94,7 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnLoginButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -107,6 +107,7 @@
         android:textColor="#E91C1A"
         android:textSize="26sp"
         android:padding="10dp"
+        app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtInputPassword" />

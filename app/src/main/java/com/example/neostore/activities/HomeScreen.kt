@@ -24,9 +24,6 @@ import kotlinx.android.synthetic.main.fragment_my_account.view.*
 
 
 
-
-
-
 class HomeScreen : AppCompatActivity() ,View.OnClickListener {
 
 
